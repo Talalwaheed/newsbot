@@ -1,12 +1,12 @@
-# 🌍 Geopolitical News Chatbot
+#  Geopolitical News Chatbot
 
 A GraphRAG-powered intelligent chatbot for geopolitical news analysis, built with Microsoft GraphRAG, MongoDB, Google Gemini, and Streamlit.
 
-## 📌 Project Overview
+## Project Overview
 
 This chatbot allows users to ask questions about geopolitical news and receive intelligent, context-aware answers. It uses a knowledge graph built from 100 geopolitical news articles to provide better answers than traditional keyword search.
 
-## 🏗️ Architecture
+##  Architecture
 news.json (100 articles)
 ↓
 MongoDB (data storage + 24h refresh)
@@ -17,7 +17,7 @@ Gemini 2.0 Flash (answer generation)
 ↓
 Streamlit (web chat interface)
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -28,7 +28,7 @@ Streamlit (web chat interface)
 | Frontend | Streamlit |
 | Language | Python 3.11 |
 
-## 📁 Project Structure
+##  Project Structure
 newsbot/
 ├── app_ui.py          # Streamlit web interface
 ├── chatbot.py         # Core chatbot logic
@@ -38,7 +38,7 @@ newsbot/
 ├── requirements.txt   # Python dependencies
 └── README.md          # This file
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Python 3.11
@@ -76,7 +76,7 @@ streamlit run app_ui.py
 
 Open browser at `http://localhost:8501`
 
-## 🔄 24-Hour Data Refresh
+##  24-Hour Data Refresh
 
 The system automatically refreshes news data every 24 hours:
 
@@ -92,7 +92,7 @@ To run the auto-refresh scheduler:
 python refresh.py
 ```
 
-## 💬 Example Questions
+##  Example Questions
 
 - What is happening between Russia and Ukraine?
 - Tell me about US and China relations
@@ -100,7 +100,7 @@ python refresh.py
 - How are sanctions affecting global trade?
 - What is happening in South Asia?
 
-## 📊 Features
+##  Features
 
 - ✅ 100 geopolitical news articles indexed
 - ✅ MongoDB for dynamic data management
@@ -110,10 +110,10 @@ python refresh.py
 - ✅ Clean web chat interface
 - ✅ Add/remove articles dynamically
 
-## 🔑 API Keys Required
+##  API Keys Required
 
 - **Google Gemini API Key** — Get free at [aistudio.google.com](https://aistudio.google.com/app/apikey)
 
 ## 👨‍💻 Author
 
-Talal — Geopolitical News Chatbot Project
+Muhammad Talal Bin Waheed.
