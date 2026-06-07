@@ -1,0 +1,9 @@
+google-generativeai
+pymongo
+streamlit
+pandas
+networkx
+sentence-transformers
+numpy
+scikit-learn
+graphrag==0.3.6
